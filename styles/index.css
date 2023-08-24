@@ -1,60 +1,125 @@
 /* 1. header */
 header {
     width:100%; 
-    margin: 0 auto;
+    margin: 0 auto; left:0; top:0;
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
     position: fixed;
-    z-index: 200;
-    
-    
+    z-index: 999; 
+    height:100px;
 }
 header nav {
     overflow: hidden;
 }
 header nav .gnb {
     
-    width:530px;
+    
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     margin-left: 30px;
     
-}
-header nav .gnb li {
     
 }
-header nav .gnb li a {
+header nav .gnb > .gnb_title {
+    padding-right: 50px;
+    padding-top: 40px;
+    
+}
+header nav .gnb .gnb_title a {
     font-weight: 600;
     color:#fff;
 }
+
 header nav .gnb li .sub {
-    background: tomato;
-    display: none;
+    background: #000;
+    
+    display: flex; flex-flow: row nowrap;
+    
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; left:0; top:100px; 
+    height:90vh; width: 100%; z-index: 100;
+    
+    
+    
     
 
 }
+
 header nav .gnb li .sub .left {
-    width: 40%; background: yellow;
+    
+    width: 50%; left: 0;
     
 }
-header nav .gnb li .sub .left .sub_left1 {}
-header nav .gnb li .sub .left .sub_left1 h2 {}
-header nav .gnb li .sub .left .sub_left1 p {}
-header nav .gnb li .sub .left .sub_left1 p a {}
-header nav .gnb li .sub .left .sub_left2 {}
-header nav .gnb li .sub .left .sub_left2 dl {}
-header nav .gnb li .sub .left .sub_left2 dl dt {}
-header nav .gnb li .sub .left .sub_left2 dl dt a {}
-header nav .gnb li .sub .left .sub_left2 dl dd {}
-header nav .gnb li .sub .left .sub_left2 dl dd a {}
-header nav .gnb li .sub .left .sub_left2 dl dd a .small_txt {}
-header nav .gnb li .sub .right {
-    background: lime;
+header nav .gnb li .sub .left .sub_left1 {
+    
 }
-header nav .gnb li .sub .right img {}
+header nav .gnb li .sub .left .sub_left1 h2 {
+    font-size: 1.3rem; font-weight: 600;
+    padding: 30px 0 0px 30px;
+    color: #fff; font-size: 1.7rem;
+}
+header nav .gnb li .sub .left .sub_left1 p {
+    padding: 30px 0 0 30px;
+}
+header nav .gnb li .sub .left .sub_left1 p a {}
+header nav .gnb li .sub .left .sub_left2 {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 60%; padding-top: 50px;
+    
+}
+header nav .gnb li .sub .left .sub_left2 ul {
+    padding: 30px 30px 30px 30px;
+}
+header nav .gnb li .sub .left .sub_left2 ul li {
+    padding-top: 10px; 
+}
+header nav .gnb li .sub .left .sub_left2 ul .title > a {font-size: 1.3rem;}
+header nav .gnb li .sub .left .sub_left2 ul li a {font-size: 0.9rem;}
+header nav .gnb li .sub .left .sub_left2 ul li a .small_txt {
+    font-size: 0.5rem;
+}
+header nav .gnb li .sub .right {
+    width: 50%;
+    
+
+    
+    
+    
+}
+header nav .gnb li .sub .right1 img {
+    width:80%;
+    background-size: auto;
+    background-position: center;
+    
+}
+header nav .gnb li .sub .right2 img {
+    width: 70%;
+    background-size: auto;
+    background-position: center;
+}
+header nav .gnb li .sub .right3 img {
+    width:100%;
+    background-size: auto;
+    background-position: center;
+    
+}
+header nav .gnb li .sub .right4 img {
+    width:100%;
+    background-size: auto;
+    background-position: center;
+}
+header nav .gnb li .sub .right5 img {
+    width:100%;
+    background-size: auto;
+    background-position: center;
+    
+}
 header .logo {
     width:120px; height:60px;
     
@@ -127,7 +192,7 @@ header .member_wrap .member_info #location img {
 main {}
 main section {}
 main section .bnr1 {
-    width: 100%; top:50%;
+    width: 100%; top:60%;
     
     position: absolute;
     z-index: 300;
@@ -153,7 +218,7 @@ main section .bnr1 .bnr_txt h2 {
     
 }
 main section .bnr1 .scroll {
-    position: absolute; right:0px; top:220px;
+    position: absolute; right:0px; top:150px;
     display: flex; flex-flow: column nowrap;
     justify-content: space-between; align-items: center;
     color: #fff;
@@ -173,10 +238,11 @@ main section .bnr1 .scroll img:last-child {
     margin-bottom: 10px;
     animation:arrow_move 1s linear alternate infinite;
 }
-main section video {
+main section #myvideo {
     position: relative; 
     z-index: 100;
-    
+    transform: translateY(-140px);
+    height:100%;
     
 }
 
@@ -346,7 +412,6 @@ main section .bnr4 .bnr4_right .bnr_txt h2 {
 /* footer */
 footer .fnb_top {
     background: #000;
-   
     padding-top: 100px; padding-bottom: 110px;
     display: flex;
     flex-flow: row nowrap;
@@ -410,7 +475,7 @@ footer .fnb_top .fnb_right ul li .fnb_sub li {
 }
 footer .fnb_top .fnb_right ul li .fnb_sub li a {}
 footer .fnb_btm {
-    
+    padding-bottom: 30px;
     padding-left: 30px;
     background: #000;
 }
@@ -422,10 +487,10 @@ footer .fnb_btm .btm1 ul {
     display: flex; flex-flow: row nowrap;
     
 }
-footer .fnb_btm .btm1 ul li {
+footer .fnb_btm .btm1 ul a li {
     margin-right: 25px;
     padding-bottom: 50px;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     color: #fff;
 }
 footer .fnb_btm .btm1 ul li:hover {text-decoration: underline;}
@@ -436,8 +501,8 @@ footer .fnb_btm .btm1 span {
 footer .fnb_btm address {
     
 }
-footer .fnb_btm address p {line-height: 20px;color: #fff;}
-footer .fnb_btm address p a {color: #fff;}
+footer .fnb_btm address p {line-height: 20px;color: #fff;font-size: 0.8rem;letter-spacing: -0.02em;}
+footer .fnb_btm address p a {color: #fff; }
 footer .fnb_btm address p a:hover {text-decoration: underline;}
 
 
