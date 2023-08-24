@@ -1,0 +1,447 @@
+/* 1. header */
+header {
+    width:100%; 
+    margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 200;
+    
+    
+}
+header nav {
+    overflow: hidden;
+}
+header nav .gnb {
+    
+    width:530px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+header nav .gnb li {
+    
+}
+header nav .gnb li a {
+    font-weight: 600;
+    color:#fff;
+}
+header nav .gnb li .sub {
+    background: tomato;
+    display: none;
+    
+
+}
+header nav .gnb li .sub .left {
+    width: 40%; background: yellow;
+    
+}
+header nav .gnb li .sub .left .sub_left1 {}
+header nav .gnb li .sub .left .sub_left1 h2 {}
+header nav .gnb li .sub .left .sub_left1 p {}
+header nav .gnb li .sub .left .sub_left1 p a {}
+header nav .gnb li .sub .left .sub_left2 {}
+header nav .gnb li .sub .left .sub_left2 dl {}
+header nav .gnb li .sub .left .sub_left2 dl dt {}
+header nav .gnb li .sub .left .sub_left2 dl dt a {}
+header nav .gnb li .sub .left .sub_left2 dl dd {}
+header nav .gnb li .sub .left .sub_left2 dl dd a {}
+header nav .gnb li .sub .left .sub_left2 dl dd a .small_txt {}
+header nav .gnb li .sub .right {
+    background: lime;
+}
+header nav .gnb li .sub .right img {}
+header .logo {
+    width:120px; height:60px;
+    
+    margin: 0 auto;
+    padding-top: 15px;
+}
+header .logo a {}
+header .logo a img {width: 100%;}
+header .member_wrap {
+    display: flex;
+    align-items: center;
+}
+header .member_wrap #searchFrm {
+    background: #000;
+    width:290px; height:50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid#fff;
+    
+}
+header .member_wrap #searchFrm fieldset {
+    display: flex; height:50px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header .member_wrap #searchFrm fieldset #searchTxt {
+    margin-left: 15px; padding-bottom: 5px;
+    padding-left: 5px;
+    background: #000; color:#fff;
+}
+header .member_wrap #searchFrm fieldset #searchTxt::placeholder {color:#fff}
+header .member_wrap #searchFrm fieldset #searchBtn {
+    margin-right: 15px; height: 30px;
+    background: #000;
+}
+header .member_wrap #searchFrm fieldset #searchBtn img {width:100%;}
+header .member_wrap .member_info {
+    
+    margin-right: 30px;
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+header .member_wrap .member_info #login {
+    
+    margin-right: 25px;
+}
+header .member_wrap .member_info #login img {
+    width:30px; height:30px;
+}
+header .member_wrap .member_info #cart {
+    
+    margin-right: 25px;
+}
+header .member_wrap .member_info #cart img {
+    width:30px; height:30px;
+}
+header .member_wrap .member_info span {
+    border-right: 1px solid#fff;
+    height: 30px; margin-right: 25px;
+}
+header .member_wrap .member_info #location {
+    
+}
+header .member_wrap .member_info #location img {
+    width:30px; height:30px;
+}
+/* main */
+main {}
+main section {}
+main section .bnr1 {
+    width: 100%; top:50%;
+    
+    position: absolute;
+    z-index: 300;
+    text-align: center;
+}
+main section .bnr1 .bnr_txt {
+    
+    color: #fff;
+    display: inline-block;
+    
+    
+    
+}
+main section .bnr1 .bnr_txt span {
+    
+    font-size: 1.333rem;
+}
+main section .bnr1 .bnr_txt h2 {
+    font-size: 3.157rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+}
+main section .bnr1 .scroll {
+    position: absolute; right:0px; top:220px;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+    color: #fff;
+    
+    
+}
+main section .bnr1 .scroll span {
+    transform: rotate(-90deg);
+    margin-bottom: 70px;
+}
+main section .bnr1 .scroll img {
+    width: 30px;height:30px;
+    margin-bottom: 50px;
+    
+}
+main section .bnr1 .scroll img:last-child {
+    margin-bottom: 10px;
+    animation:arrow_move 1s linear alternate infinite;
+}
+main section video {
+    position: relative; 
+    z-index: 100;
+    
+    
+}
+
+/* main - bnr2 */
+main section .bnr2 {
+    width: 100%; height:100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+main section .bnr2 .bnr2_left {
+    width: 50%; height:100vh;
+    background: url(/images/bnr2-2.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+main section .bnr2 .bnr2_left .bnr_txt {
+    
+    display: inline-block;
+    margin-top: 600px;
+    padding-left: 30px;
+    color: #fff;
+}
+main section .bnr2 .bnr2_left .bnr_txt span {
+    font-size: 1.333rem;
+}
+main section .bnr2 .bnr2_left .bnr_txt h2 {
+    font-size: 3.157rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+main section .bnr2 .bnr2_right {
+    
+    width: 50%; height:100vh;
+    display: flex; flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: scroll;
+    
+}
+main section .bnr2 .bnr2_right .item {
+    background-color: rgb(241, 241, 233);
+    width: 50%; height:600px;
+    padding-left: 20px; 
+}
+main section .bnr2 .bnr2_right .item > a > img {
+    width:100%;
+    
+}
+main section .bnr2 .bnr2_right .item .review {
+    background: #000;
+    height: 60px; 
+    padding-top: 20px;
+    padding-right: 15px;
+    text-align: right;
+}
+main section .bnr2 .bnr2_right .item .review a {
+    
+}
+main section .bnr2 .bnr2_right .item .review a img {
+    width: 20px; height: 20px;
+    
+    
+}
+main section .bnr2 .bnr2_right .item .review a .small_txt {
+    color:#fff; font-size: 0.5rem;
+    vertical-align: 0.75rem;
+}
+main section .bnr2 .bnr2_right .item .review a span:nth-child(3) {
+    border-right: 1px solid#fff;
+    
+    height: 24px; margin-right: 10px; margin-left: 3px;
+    
+}
+main section .bnr2 .bnr2_right .item .item_txt {
+    padding: 5px 0 0 5px;
+}
+main section .bnr2 .bnr2_right .item .item_txt a span {
+    font-size: 0.8rem;
+}
+main section .bnr2 .bnr2_right .item .item_txt a h2 {
+    font-size: 1.0rem;
+    margin: 10px 0 10px 0; font-weight: 600;
+}
+main section .bnr2 .bnr2_right .item .item_txt a .price {}
+main section .bnr2 .bnr2_right .item .item_txt a .discount_price {
+    text-decoration: line-through; color:#aaa;
+}
+
+/* main-bnr3 */
+main section .bnr3 {
+    background:url(/images/bnr3-4.jpg) no-repeat;
+    background-size: 100%;
+    height:100vh;
+    
+}
+main section .bnr3 .bnr_txt {
+    display: inline-block;
+    margin-top: 600px;
+    padding-left: 30px;
+    color: #fff;
+}
+main section .bnr3 .bnr_txt span {
+    font-size: 1.333rem;
+}
+main section .bnr3 .bnr_txt h2 {
+    font-size: 3.157rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* main-bnr4 */
+main section .bnr4 {
+    
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%; height: 100vh;
+}
+main section .bnr4 .bnr4_left {
+    background: url(/images/bnr4-1.jpg) no-repeat ;
+    width: 50%; background-size: 100% ;
+    height:100vh;
+}
+main section .bnr4 .bnr4_left .bnr_txt {
+    display: inline-block;
+    margin-top: 600px;
+    padding-left: 30px;
+    color: #fff;
+}
+main section .bnr4 .bnr4_left .bnr_txt span {
+    font-size: 1.333rem;
+}
+main section .bnr4 .bnr4_left .bnr_txt h2 {
+    font-size: 3.157rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+main section .bnr4 .bnr4_right {
+    background: url(/images/bnr4-2.jpg) no-repeat ;
+    width: 50%; background-size: 100% ;
+    height:100vh;
+}
+main section .bnr4 .bnr4_right .bnr_txt {
+    display: inline-block;
+    margin-top: 600px;
+    padding-left: 30px;
+    color: #fff;
+}
+main section .bnr4 .bnr4_right .bnr_txt span {
+    font-size: 1.333rem;
+}
+main section .bnr4 .bnr4_right .bnr_txt h2 {
+    font-size: 3.157rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* footer */
+footer .fnb_top {
+    background: #000;
+   
+    padding-top: 100px; padding-bottom: 110px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+footer .fnb_top .fnb_left {
+    width: 50%;
+    padding-left: 30px;
+    color: #fff;
+    
+}
+footer .fnb_top .fnb_left h1 {
+    width: 120px; height:120px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+footer .fnb_top .fnb_left h1 a {}
+footer .fnb_top .fnb_left h1 a img {width: 100%;}
+footer .fnb_top .fnb_left p {
+    font-size: 1.7rem; font-weight: 600;
+    margin-bottom: 15px; 
+}
+
+footer .fnb_top .fnb_left .tel {
+    font-size: 2.3rem; font-weight: 600;
+    margin-bottom: 15px;
+}
+footer .fnb_top .fnb_left span {
+    display: block;margin-top: 15px;
+    line-height: 20px; font-size: rem;
+    
+}
+footer .fnb_top .fnb_right {
+    width: 50%;
+    padding-left: 30px;
+    
+}
+footer .fnb_top .fnb_right ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+    
+}
+footer .fnb_top .fnb_right ul li {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    
+}
+footer .fnb_top .fnb_right ul li a {
+    color: #fff;
+}
+footer .fnb_top .fnb_right ul li a:hover {
+    text-decoration: underline;
+}
+footer .fnb_top .fnb_right ul li .fnb_sub {
+    display: flex; flex-flow: column nowrap;
+}
+footer .fnb_top .fnb_right ul li .fnb_sub li {
+    
+}
+footer .fnb_top .fnb_right ul li .fnb_sub li a {}
+footer .fnb_btm {
+    
+    padding-left: 30px;
+    background: #000;
+}
+footer .fnb_btm .btm1 {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+footer .fnb_btm .btm1 ul {
+    display: flex; flex-flow: row nowrap;
+    
+}
+footer .fnb_btm .btm1 ul li {
+    margin-right: 25px;
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+footer .fnb_btm .btm1 ul li:hover {text-decoration: underline;}
+footer .fnb_btm .btm1 span {
+    margin-right: 30px;
+    color: #fff;
+}
+footer .fnb_btm address {
+    
+}
+footer .fnb_btm address p {line-height: 20px;color: #fff;}
+footer .fnb_btm address p a {color: #fff;}
+footer .fnb_btm address p a:hover {text-decoration: underline;}
+
+
+@keyframes arrow_move {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-30px);}
+}
