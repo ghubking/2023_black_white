@@ -9,6 +9,7 @@ header {
     z-index: 999; 
     height:100px;
 }
+
 header nav {
     overflow: hidden;
 }
@@ -24,7 +25,7 @@ header nav .gnb {
 }
 header nav .gnb > .gnb_title {
     padding-right: 50px;
-    padding-top: 40px;
+    margin-top: 40px;
     
 }
 header nav .gnb .gnb_title a {
@@ -39,8 +40,8 @@ header nav .gnb li .sub {
     
     justify-content: space-between;
     align-items: center;
-    position: absolute; left:0; top:100px; 
-    height:90vh; width: 100%; z-index: 100;
+    position: absolute; left:0; top:80px; 
+    height:85vh; width: 100%; z-index: 100;
     
     
     
@@ -189,6 +190,7 @@ header .member_wrap .member_info #location img {
     width:30px; height:30px;
 }
 /* main */
+main section * .bnr_txt {duration:2; y:-100; opacity:1;}
 main {}
 main section {}
 main section .bnr1 {

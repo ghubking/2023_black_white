@@ -467,37 +467,8 @@
             </address>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="./script/index.js"></script>
 </body>
-<script>
-    const sub = document.querySelectorAll('.sub')
-    const gnb_title = document.querySelectorAll('.gnb_title')
-    const header = document.querySelector('header')
-    console.log(sub, gnb_title, header)
-    for(let i of sub){
-        i.style.display = 'none'}
-        for(let i of gnb_title){
-            i.addEventListener('mouseover',function(){
-                i.lastElementChild.style.display = 'flex'
-                console.log(header)
-                header.style.backgroundColor = '#000'
-            })
-            i.addEventListener('mouseout',function(){
-                i.lastElementChild.style.display = 'none'
-                header.style.background = 'none'
-            })
-        }
-        
-    // sub_func('none')
-    // function sub_func(status){
-    //     for(let i of sub){i.style.display = status}
-    // } 
-    // for(let j of gnb_title){
-    //         j.addEventListener('mouseover',function(){
-    //             sub_func('flex')
-    //         })
-    //         j.addEventListener('mouseout',function(){
-    //             sub_func('none')
-    //         })
-    //     }
-</script>
 </html>
