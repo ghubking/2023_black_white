@@ -42,16 +42,16 @@ main .store_wrap .store_txt .find #search fieldset {
     display: flex; height:50px;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 main .store_wrap .store_txt .find #search fieldset #store_search {
     margin-left: 15px; padding-bottom: 5px;
-    padding-left: 5px;
+    padding-left: 5px; width: 450px;
     background: #000; color:#fff;
 }
 main .store_wrap .store_txt .find #search fieldset #searchBtn2 {
     margin-right: 15px; height: 30px;
-    
+    background: none;
 
 }
 main .store_wrap .store_txt .find #search fieldset #searchBtn2 img {
@@ -64,31 +64,33 @@ main .store_wrap .store_txt .txt {
     
 }
 main .store_wrap .store_txt .txt .contents {
-    margin-bottom: 30px;
-    
+    margin-bottom: 20px;
+    border-bottom: 1px solid#aaa;
+    padding-bottom: 20px;
 }
 main .store_wrap .store_txt .txt .contents a {
+    
     padding-bottom: 20px; color:#fff;
 }
 main .store_wrap .store_txt .txt .contents a p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 500;
 }
 main .store_wrap .store_txt .txt .contents a .address {
-    line-height: 20px; 
+    
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     
 }
 main .store_wrap .store_txt .txt .contents a .address span {
-    font-size: 0.8rem;
+    font-size: 0.8rem; line-height: 20px;
 }
 main .store_wrap .store_txt .txt .contents a .address em {
     font-size: 0.8rem;
 }
 main #map {
-    width:700px; height:500px;
+    width:700px; height:580px;
     margin: 0 auto;
-    
+    margin-top: 60px;
 }
 /* main .store_wrap .store_txt .txt .contents #map img {width:100%;} */
