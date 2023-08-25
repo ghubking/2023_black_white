@@ -26,27 +26,23 @@ const sub = document.querySelectorAll('.sub')
         }
     gsap.to('.bnr1 .bnr_txt',{
         scrollTrigger:'.bnr1',
-        duration:2,
-        y:-100, opacity:1
+        duration:3,
+        y:-50, opacity:1
     })
     gsap.to('.bnr2 .bnr_txt',{
         scrollTrigger:'.bnr2',
-        duration:2,
-        y:-100, opacity:1
+        duration:3,
+        y:-50, opacity:1
     })
     gsap.to('.bnr3 .bnr_txt',{
         scrollTrigger:'.bnr3',
-        duration:2,
-        y:-100, opacity:1
+        duration:3,
+        y:-50, opacity:1
     })
     gsap.to('.bnr4 .bnr_txt',{
         scrollTrigger:'.bnr4',
-        duration:2,
-        y:-100, opacity:1
+        duration:3,
+        y:-50, opacity:1
     })
-    gsap.to('.bnr5 .bnr_txt',{
-        scrollTrigger:'.bnr5',
-        duration:2,
-        y:-100, opacity:1
-    })
+    
     

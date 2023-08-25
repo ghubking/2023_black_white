@@ -14,20 +14,17 @@ header nav {
     overflow: hidden;
 }
 header nav .gnb {
-    
-    
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     margin-left: 30px;
-    
-    
 }
-header nav .gnb > .gnb_title {
+header nav .gnb .gnb_title {
     padding-right: 50px;
     margin-top: 40px;
-    
+    transition: all 1s;
 }
+
 header nav .gnb .gnb_title a {
     font-weight: 600;
     color:#fff;
@@ -35,28 +32,17 @@ header nav .gnb .gnb_title a {
 
 header nav .gnb li .sub {
     background: #000;
-    
     display: flex; flex-flow: row nowrap;
-    
     justify-content: space-between;
     align-items: center;
     position: absolute; left:0; top:80px; 
     height:85vh; width: 100%; z-index: 100;
-    
-    
-    
-    
-
+    transition: all 1s;
 }
-
 header nav .gnb li .sub .left {
-    
     width: 50%; left: 0;
-    
 }
-header nav .gnb li .sub .left .sub_left1 {
-    
-}
+header nav .gnb li .sub .left .sub_left1 {}
 header nav .gnb li .sub .left .sub_left1 h2 {
     font-size: 1.3rem; font-weight: 600;
     padding: 30px 0 0px 30px;
@@ -66,13 +52,12 @@ header nav .gnb li .sub .left .sub_left1 p {
     padding: 30px 0 0 30px;
 }
 header nav .gnb li .sub .left .sub_left1 p a {}
+header nav .gnb li .sub .left .sub_left1 p a:hover {text-decoration: underline;}
 header nav .gnb li .sub .left .sub_left2 {
-    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     width: 60%; padding-top: 50px;
-    
 }
 header nav .gnb li .sub .left .sub_left2 ul {
     padding: 30px 30px 30px 30px;
@@ -82,22 +67,18 @@ header nav .gnb li .sub .left .sub_left2 ul li {
 }
 header nav .gnb li .sub .left .sub_left2 ul .title > a {font-size: 1.3rem;}
 header nav .gnb li .sub .left .sub_left2 ul li a {font-size: 0.9rem;}
+header nav .gnb li .sub .left .sub_left2 ul li a:hover {text-decoration: underline;}
 header nav .gnb li .sub .left .sub_left2 ul li a .small_txt {
     font-size: 0.5rem;
+    vertical-align: 0.3rem; color:#aaa
 }
 header nav .gnb li .sub .right {
     width: 50%;
-    
-
-    
-    
-    
 }
 header nav .gnb li .sub .right1 img {
     width:80%;
     background-size: auto;
     background-position: center;
-    
 }
 header nav .gnb li .sub .right2 img {
     width: 70%;
@@ -108,7 +89,6 @@ header nav .gnb li .sub .right3 img {
     width:100%;
     background-size: auto;
     background-position: center;
-    
 }
 header nav .gnb li .sub .right4 img {
     width:100%;
@@ -119,11 +99,9 @@ header nav .gnb li .sub .right5 img {
     width:100%;
     background-size: auto;
     background-position: center;
-    
 }
 header .logo {
     width:120px; height:60px;
-    
     margin: 0 auto;
     padding-top: 15px;
 }
@@ -139,7 +117,6 @@ header .member_wrap #searchFrm {
     margin-right: 20px;
     border-radius: 10px;
     border: 1px solid#fff;
-    
 }
 header .member_wrap #searchFrm fieldset {
     display: flex; height:50px;
@@ -147,7 +124,6 @@ header .member_wrap #searchFrm fieldset {
     justify-content: space-between;
     align-items: center; 
 }
-
 header .member_wrap #searchFrm fieldset #searchTxt {
     margin-left: 15px; padding-bottom: 5px;
     padding-left: 5px;
@@ -160,20 +136,17 @@ header .member_wrap #searchFrm fieldset #searchBtn {
 }
 header .member_wrap #searchFrm fieldset #searchBtn img {width:100%;}
 header .member_wrap .member_info {
-    
     margin-right: 30px;
     display: flex; flex-flow: row nowrap;
     align-items: center;
 }
 header .member_wrap .member_info #login {
-    
     margin-right: 25px;
 }
 header .member_wrap .member_info #login img {
     width:30px; height:30px;
 }
 header .member_wrap .member_info #cart {
-    
     margin-right: 25px;
 }
 header .member_wrap .member_info #cart img {
@@ -183,33 +156,24 @@ header .member_wrap .member_info span {
     border-right: 1px solid#fff;
     height: 30px; margin-right: 25px;
 }
-header .member_wrap .member_info #location {
-    
-}
+header .member_wrap .member_info #location {}
 header .member_wrap .member_info #location img {
     width:30px; height:30px;
 }
 /* main */
-main section * .bnr_txt {duration:2; y:-100; opacity:1;}
 main {}
 main section {}
 main section .bnr1 {
     width: 100%; top:60%;
-    
     position: absolute;
     z-index: 300;
     text-align: center;
 }
 main section .bnr1 .bnr_txt {
-    
     color: #fff;
     display: inline-block;
-    
-    
-    
 }
 main section .bnr1 .bnr_txt span {
-    
     font-size: 1.333rem;
 }
 main section .bnr1 .bnr_txt h2 {
@@ -217,15 +181,12 @@ main section .bnr1 .bnr_txt h2 {
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 25px;
-    
 }
 main section .bnr1 .scroll {
     position: absolute; right:0px; top:150px;
     display: flex; flex-flow: column nowrap;
     justify-content: space-between; align-items: center;
     color: #fff;
-    
-    
 }
 main section .bnr1 .scroll span {
     transform: rotate(-90deg);
@@ -234,7 +195,6 @@ main section .bnr1 .scroll span {
 main section .bnr1 .scroll img {
     width: 30px;height:30px;
     margin-bottom: 50px;
-    
 }
 main section .bnr1 .scroll img:last-child {
     margin-bottom: 10px;
@@ -245,7 +205,6 @@ main section #myvideo {
     z-index: 100;
     transform: translateY(-140px);
     height:100%;
-    
 }
 
 /* main - bnr2 */
@@ -256,19 +215,14 @@ main section .bnr2 {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
-    
 }
 main section .bnr2 .bnr2_left {
     width: 50%; height:100vh;
-    background: url(/images/bnr2-2.jpg) no-repeat;
+    background: url(../images/bnr2-2.jpg) no-repeat;
     background-position: center;
     background-size: 100%;
 }
 main section .bnr2 .bnr2_left .bnr_txt {
-    
     display: inline-block;
     margin-top: 600px;
     padding-left: 30px;
@@ -284,12 +238,10 @@ main section .bnr2 .bnr2_left .bnr_txt h2 {
     margin-bottom: 25px;
 }
 main section .bnr2 .bnr2_right {
-    
     width: 50%; height:100vh;
     display: flex; flex-flow: row wrap;
     justify-content: space-between;
     overflow: scroll;
-    
 }
 main section .bnr2 .bnr2_right .item {
     background-color: rgb(241, 241, 233);
@@ -298,7 +250,6 @@ main section .bnr2 .bnr2_right .item {
 }
 main section .bnr2 .bnr2_right .item > a > img {
     width:100%;
-    
 }
 main section .bnr2 .bnr2_right .item .review {
     background: #000;
@@ -307,13 +258,9 @@ main section .bnr2 .bnr2_right .item .review {
     padding-right: 15px;
     text-align: right;
 }
-main section .bnr2 .bnr2_right .item .review a {
-    
-}
+main section .bnr2 .bnr2_right .item .review a {}
 main section .bnr2 .bnr2_right .item .review a img {
     width: 20px; height: 20px;
-    
-    
 }
 main section .bnr2 .bnr2_right .item .review a .small_txt {
     color:#fff; font-size: 0.5rem;
@@ -321,9 +268,7 @@ main section .bnr2 .bnr2_right .item .review a .small_txt {
 }
 main section .bnr2 .bnr2_right .item .review a span:nth-child(3) {
     border-right: 1px solid#fff;
-    
     height: 24px; margin-right: 10px; margin-left: 3px;
-    
 }
 main section .bnr2 .bnr2_right .item .item_txt {
     padding: 5px 0 0 5px;
@@ -342,10 +287,9 @@ main section .bnr2 .bnr2_right .item .item_txt a .discount_price {
 
 /* main-bnr3 */
 main section .bnr3 {
-    background:url(/images/bnr3-4.jpg) no-repeat;
+    background:url(../images/bnr3-4.jpg) no-repeat;
     background-size: 100%;
     height:100vh;
-    
 }
 main section .bnr3 .bnr_txt {
     display: inline-block;
@@ -365,13 +309,12 @@ main section .bnr3 .bnr_txt h2 {
 
 /* main-bnr4 */
 main section .bnr4 {
-    
     display: flex; flex-flow: row nowrap;
     justify-content: space-around;
     width: 100%; height: 100vh;
 }
 main section .bnr4 .bnr4_left {
-    background: url(/images/bnr4-1.jpg) no-repeat ;
+    background: url(../images/bnr4-1.jpg) no-repeat ;
     width: 50%; background-size: 100% ;
     height:100vh;
 }
@@ -391,7 +334,7 @@ main section .bnr4 .bnr4_left .bnr_txt h2 {
     margin-bottom: 25px;
 }
 main section .bnr4 .bnr4_right {
-    background: url(/images/bnr4-2.jpg) no-repeat ;
+    background: url(../images/bnr4-2.jpg) no-repeat ;
     width: 50%; background-size: 100% ;
     height:100vh;
 }
@@ -500,9 +443,7 @@ footer .fnb_btm .btm1 span {
     margin-right: 30px;
     color: #fff;
 }
-footer .fnb_btm address {
-    
-}
+footer .fnb_btm address {}
 footer .fnb_btm address p {line-height: 20px;color: #fff;font-size: 0.8rem;letter-spacing: -0.02em;}
 footer .fnb_btm address p a {color: #fff; }
 footer .fnb_btm address p a:hover {text-decoration: underline;}
