@@ -76,6 +76,7 @@ main .store_wrap .store_txt .txt .contents a p {
     margin-bottom: 20px;
     font-weight: 500;
 }
+main .store_wrap .store_txt .txt .contents a p:hover {text-decoration: underline;}
 main .store_wrap .store_txt .txt .contents a .address {
     
     display: flex; flex-flow: row nowrap;

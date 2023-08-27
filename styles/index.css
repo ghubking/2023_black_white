@@ -1,4 +1,5 @@
 /* 1. header */
+header, html {scroll-behavior: smooth;}
 header {
     width:100%; 
     margin: 0 auto; left:0; top:0;
@@ -7,29 +8,33 @@ header {
     align-items: center;
     position: fixed;
     z-index: 999; 
-    height:100px;
+    height:100px; 
 }
 
 header nav {
-    overflow: hidden;
+    
 }
 header nav .gnb {
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     margin-left: 30px;
+    transition: all linear 1s;
 }
 header nav .gnb .gnb_title {
-    padding-right: 50px;
-    margin-top: 40px;
+    margin-right: 40px;
     transition: all 1s;
+    
 }
+    header nav .gnb .gnb_title:last-child {margin-right: 0;}
 
-header nav .gnb .gnb_title a {
+header nav .gnb .gnb_title > a {
     font-weight: 600;
     color:#fff;
+    padding-bottom: 20px;
+    
 }
-
+header nav .gnb .gnb_title > a:hover {text-decoration: underline;}
 header nav .gnb li .sub {
     background: #000;
     display: flex; flex-flow: row nowrap;
@@ -37,7 +42,7 @@ header nav .gnb li .sub {
     align-items: center;
     position: absolute; left:0; top:80px; 
     height:85vh; width: 100%; z-index: 100;
-    transition: all 1s;
+    
 }
 header nav .gnb li .sub .left {
     width: 50%; left: 0;
@@ -51,7 +56,7 @@ header nav .gnb li .sub .left .sub_left1 h2 {
 header nav .gnb li .sub .left .sub_left1 p {
     padding: 30px 0 0 30px;
 }
-header nav .gnb li .sub .left .sub_left1 p a {}
+header nav .gnb li .sub .left .sub_left1 p a {color:#fff;}
 header nav .gnb li .sub .left .sub_left1 p a:hover {text-decoration: underline;}
 header nav .gnb li .sub .left .sub_left2 {
     display: flex;
@@ -65,12 +70,14 @@ header nav .gnb li .sub .left .sub_left2 ul {
 header nav .gnb li .sub .left .sub_left2 ul li {
     padding-top: 10px; 
 }
-header nav .gnb li .sub .left .sub_left2 ul .title > a {font-size: 1.3rem;}
-header nav .gnb li .sub .left .sub_left2 ul li a {font-size: 0.9rem;}
+header nav .gnb li .sub .left .sub_left2 ul .title > a {font-size: 1.3rem;
+margin-bottom: 10px;}
+header nav .gnb li .sub .left .sub_left2 ul li a {font-size: 0.9rem; color:#fff;}
 header nav .gnb li .sub .left .sub_left2 ul li a:hover {text-decoration: underline;}
 header nav .gnb li .sub .left .sub_left2 ul li a .small_txt {
-    font-size: 0.5rem;
-    vertical-align: 0.3rem; color:#aaa
+    font-size: 0.5rem; 
+    vertical-align: 0.3rem; color:#aaa;
+    padding-left: 5px;
 }
 header nav .gnb li .sub .right {
     width: 50%;
@@ -209,7 +216,7 @@ main section #myvideo {
 
 /* main - bnr2 */
 main section .bnr2 {
-    width: 100%; height:100vh;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
@@ -355,6 +362,7 @@ main section .bnr4 .bnr4_right .bnr_txt h2 {
 }
 
 /* footer */
+footer {width: 100%;}
 footer .fnb_top {
     background: #000;
     padding-top: 100px; padding-bottom: 110px;

@@ -58,6 +58,7 @@ main .login #login_box .login_middle .right span a {
     font-size: 1.0rem;line-height: 21px;
     color:#fff;
 }
+main .login #login_box .login_middle .right span a:hover {text-decoration: underline;}
 main .login #login_box .login_btn {
     text-align: center; display: block;
     width: 500px; height:72px;
@@ -90,6 +91,7 @@ main .login #login_box .login_bottom p a {
     text-align: center;
     color: #fff;
 }
+
 main .login #login_box .login_bottom p a img {
     font-size: 1.33rem; 
     display: block; margin: 0 auto;

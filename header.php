@@ -1,7 +1,7 @@
 <header>
         <nav>
             <ul class="gnb">
-                <li class="gnb_title"><a href="#">MEN</a>
+                <li class="gnb_title"><a href="./product.html">MEN</a>
                     <ul class="sub">
                         <li class="left">
                             <div class="sub_left1">
@@ -39,7 +39,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="gnb_title"><a href="#">WOMEN</a>
+                <li class="gnb_title"><a href="./product.html">WOMEN</a>
                     <ul class="sub">
                         <li class="left">
                             <div class="sub_left1">
