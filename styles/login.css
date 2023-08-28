@@ -1,4 +1,4 @@
-html { background-color: #000;}
+html { background-color: #000; min-width: 1920px;}
 main {
     width:calc(100% - 60px);
     

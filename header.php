@@ -6,31 +6,31 @@
                         <li class="left">
                             <div class="sub_left1">
                                 <h2>MEN'S WEAR</h2>
-                                <p><a href="#">NEW ARRIVAL</a></p>
-                                <p><a href="#">BEST SELLER</a></p>
-                                <p><a href="#">GIFT</a></p>
+                                <p><a href="./product.html">NEW ARRIVAL</a></p>
+                                <p><a href="./product.html">BEST SELLER</a></p>
+                                <p><a href="./product.html">GIFT</a></p>
                             </div>
                             <div class="sub_left2">
                                 <ul>
                                     <li class="title"><a href="#">T-SHIRTS</a></li>
-                                    <li><a href="#">긴팔티<span class="small_txt">27</span></a></li>
-                                    <li><a href="#">반팔티<span class="small_txt">25</span></a></li>
+                                    <li><a href="./product.html">긴팔티<span class="small_txt">27</span></a></li>
+                                    <li><a href="./product.html">반팔티<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">PANTS</a></li>
-                                    <li><a href="#">롱팬츠<span class="small_txt">32</span></a></li>
-                                    <li><a href="#">숏팬츠<span class="small_txt">20</span></a></li>
+                                    <li class="title"><a href="./product.html">PANTS</a></li>
+                                    <li><a href="./product.html">롱팬츠<span class="small_txt">32</span></a></li>
+                                    <li><a href="./product.html">숏팬츠<span class="small_txt">20</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">SWEATERS</a></li>
-                                    <li><a href="#">스웨터<span class="small_txt">21</span></a></li>
-                                    <li><a href="#">집업<span class="small_txt">16</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">SWEATERS</a></li>
+                                    <li><a href="./product.html">스웨터<span class="small_txt">21</span></a></li>
+                                    <li><a href="./product.html">집업<span class="small_txt">16</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">OUTWEARS</a></li>
-                                    <li><a href="#">자켓<span class="small_txt">20</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">19</span></a></li>
+                                    <li class="title"><a href="./product.html">OUTWEARS</a></li>
+                                    <li><a href="./product.html">자켓<span class="small_txt">20</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">19</span></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -44,36 +44,36 @@
                         <li class="left">
                             <div class="sub_left1">
                                 <h2>WOMEN'S WEAR</h2>
-                                <p><a href="#">NEW ARRIVAL</a></p>
-                                <p><a href="#">BEST SELLER</a></p>
-                                <p><a href="#">GIFT</a></p>
+                                <p><a href="./product.html">NEW ARRIVAL</a></p>
+                                <p><a href="./product.html">BEST SELLER</a></p>
+                                <p><a href="./product.html">GIFT</a></p>
                             </div>
                             <div class="sub_left2">
                                 <ul>
-                                    <li class="title"><a href="#">T-SHIRTS</a></li>
-                                    <li><a href="#">긴팔티<span class="small_txt">27</span></a></li>
-                                    <li><a href="#">반팔티<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">T-SHIRTS</a></li>
+                                    <li><a href="./product.html">긴팔티<span class="small_txt">27</span></a></li>
+                                    <li><a href="./product.html">반팔티<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">PANTS</a></li>
-                                    <li><a href="#">롱팬츠<span class="small_txt">32</span></a></li>
-                                    <li><a href="#">숏팬츠<span class="small_txt">20</span></a></li>
+                                    <li class="title"><a href="./product.html">PANTS</a></li>
+                                    <li><a href="./product.html">롱팬츠<span class="small_txt">32</span></a></li>
+                                    <li><a href="./product.html">숏팬츠<span class="small_txt">20</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">SWEATERS</a></li>
-                                    <li><a href="#">스웨터<span class="small_txt">21</span></a></li>
-                                    <li><a href="#">집업<span class="small_txt">16</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">SWEATERS</a></li>
+                                    <li><a href="./product.html">스웨터<span class="small_txt">21</span></a></li>
+                                    <li><a href="./product.html">집업<span class="small_txt">16</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">OUTWEARS</a></li>
-                                    <li><a href="#">자켓<span class="small_txt">20</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">19</span></a></li>
+                                    <li class="title"><a href="./product.html">OUTWEARS</a></li>
+                                    <li><a href="./product.html">자켓<span class="small_txt">20</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">19</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">DRESS & SKIRTS</a></li>
-                                    <li><a href="#">스커츠<span class="small_txt">40</span></a></li>
-                                    <li><a href="#">원피스<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">DRESS & SKIRTS</a></li>
+                                    <li><a href="./product.html">스커츠<span class="small_txt">40</span></a></li>
+                                    <li><a href="./product.html">원피스<span class="small_txt">25</span></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -82,36 +82,36 @@
                         </li>
                     </ul>
                 </li>
-                <li class="gnb_title"><a href="#">ACC</a>
+                <li class="gnb_title"><a href="./product.html">ACC</a>
                     <ul class="sub">
                         <li class="left">
                             <div class="sub_left1">
                                 <h2>ACC</h2>
-                                <p><a href="#">NEW ARRIVAL</a></p>
-                                <p><a href="#">BEST SELLER</a></p>
-                                <p><a href="#">GIFT</a></p>
+                                <p><a href="./product.html">NEW ARRIVAL</a></p>
+                                <p><a href="./product.html">BEST SELLER</a></p>
+                                <p><a href="./product.html">GIFT</a></p>
                             </div>
                             <div class="sub_left2">
                                 <ul>
-                                    <li class="title"><a href="#">T-SHIRTS</a></li>
-                                    <li><a href="#">긴팔티<span class="small_txt">27</span></a></li>
-                                    <li><a href="#">반팔티<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">T-SHIRTS</a></li>
+                                    <li><a href="./product.html">긴팔티<span class="small_txt">27</span></a></li>
+                                    <li><a href="./product.html">반팔티<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">PANTS</a></li>
-                                    <li><a href="#">롱팬츠<span class="small_txt">32</span></a></li>
-                                    <li><a href="#">숏팬츠<span class="small_txt">20</span></a></li>
+                                    <li class="title"><a href="./product.html">PANTS</a></li>
+                                    <li><a href="./product.html">롱팬츠<span class="small_txt">32</span></a></li>
+                                    <li><a href="./product.html">숏팬츠<span class="small_txt">20</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">SWEATERS</a></li>
-                                    <li><a href="#">스웨터<span class="small_txt">21</span></a></li>
-                                    <li><a href="#">집업<span class="small_txt">16</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">SWEATERS</a></li>
+                                    <li><a href="./product.html">스웨터<span class="small_txt">21</span></a></li>
+                                    <li><a href="./product.html">집업<span class="small_txt">16</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">OUTWEARS</a></li>
-                                    <li><a href="#">자켓<span class="small_txt">20</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">19</span></a></li>
+                                    <li class="title"><a href="./product.html">OUTWEARS</a></li>
+                                    <li><a href="./product.html">자켓<span class="small_txt">20</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">19</span></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -120,36 +120,36 @@
                         </li>
                     </ul>
                 </li>
-                <li class="gnb_title"><a href="#">OUTLET</a>
+                <li class="gnb_title"><a href="./product.html">OUTLET</a>
                     <ul class="sub">
                         <li class="left">
                             <div class="sub_left1">
                                 <h2>UP TO 70% SALE</h2>
-                                <p><a href="#">MEN'S</a></p>
-                                <p><a href="#">WOMEN'S</a></p>
-                                <p><a href="#">BEST SELLER</a></p>
+                                <p><a href="./product.html">MEN'S</a></p>
+                                <p><a href="./product.html">WOMEN'S</a></p>
+                                <p><a href="./product.html">BEST SELLER</a></p>
                             </div>
                             <div class="sub_left2">
                                 <ul>
-                                    <li class="title"><a href="#">T-SHIRTS</a></li>
-                                    <li><a href="#">긴팔티<span class="small_txt">27</span></a></li>
-                                    <li><a href="#">반팔티<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">T-SHIRTS</a></li>
+                                    <li><a href="./product.html">긴팔티<span class="small_txt">27</span></a></li>
+                                    <li><a href="./product.html">반팔티<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">PANTS</a></li>
-                                    <li><a href="#">롱팬츠<span class="small_txt">32</span></a></li>
-                                    <li><a href="#">숏팬츠<span class="small_txt">20</span></a></li>
+                                    <li class="title"><a href="./product.html">PANTS</a></li>
+                                    <li><a href="./product.html">롱팬츠<span class="small_txt">32</span></a></li>
+                                    <li><a href="./product.html">숏팬츠<span class="small_txt">20</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">SWEATERS</a></li>
-                                    <li><a href="#">스웨터<span class="small_txt">21</span></a></li>
-                                    <li><a href="#">집업<span class="small_txt">16</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">SWEATERS</a></li>
+                                    <li><a href="./product.html">스웨터<span class="small_txt">21</span></a></li>
+                                    <li><a href="./product.html">집업<span class="small_txt">16</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">OUTWEARS</a></li>
-                                    <li><a href="#">자켓<span class="small_txt">20</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">19</span></a></li>
+                                    <li class="title"><a href="./product.html">OUTWEARS</a></li>
+                                    <li><a href="./product.html">자켓<span class="small_txt">20</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">19</span></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -158,36 +158,36 @@
                         </li>
                     </ul>
                 </li>
-                <li class="gnb_title"><a href="#">MEDIA</a>
+                <li class="gnb_title"><a href="./product.html">MEDIA</a>
                     <ul class="sub">
                         <li class="left">
                             <div class="sub_left1">
                                 <h2>세리머니클럽</h2>
-                                <p><a href="#">NEW ARRIVAL</a></p>
-                                <p><a href="#">BEST SELLER</a></p>
-                                <p><a href="#">GIFT</a></p>
+                                <p><a href="./product.html">NEW ARRIVAL</a></p>
+                                <p><a href="./product.html">BEST SELLER</a></p>
+                                <p><a href="./product.html">GIFT</a></p>
                             </div>
                             <div class="sub_left2">
                                 <ul>
-                                    <li class="title"><a href="#">T-SHIRTS</a></li>
-                                    <li><a href="#">긴팔티<span class="small_txt">27</span></a></li>
-                                    <li><a href="#">반팔티<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">T-SHIRTS</a></li>
+                                    <li><a href="./product.html">긴팔티<span class="small_txt">27</span></a></li>
+                                    <li><a href="./product.html">반팔티<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">PANTS</a></li>
-                                    <li><a href="#">롱팬츠<span class="small_txt">32</span></a></li>
-                                    <li><a href="#">숏팬츠<span class="small_txt">20</span></a></li>
+                                    <li class="title"><a href="./product.html">PANTS</a></li>
+                                    <li><a href="./product.html">롱팬츠<span class="small_txt">32</span></a></li>
+                                    <li><a href="./product.html">숏팬츠<span class="small_txt">20</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">SWEATERS</a></li>
-                                    <li><a href="#">스웨터<span class="small_txt">21</span></a></li>
-                                    <li><a href="#">집업<span class="small_txt">16</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">25</span></a></li>
+                                    <li class="title"><a href="./product.html">SWEATERS</a></li>
+                                    <li><a href="./product.html">스웨터<span class="small_txt">21</span></a></li>
+                                    <li><a href="./product.html">집업<span class="small_txt">16</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">25</span></a></li>
                                 </ul>
                                 <ul>
-                                    <li class="title"><a href="#">OUTWEARS</a></li>
-                                    <li><a href="#">자켓<span class="small_txt">20</span></a></li>
-                                    <li><a href="#">베스트<span class="small_txt">19</span></a></li>
+                                    <li class="title"><a href="./product.html">OUTWEARS</a></li>
+                                    <li><a href="./product.html">자켓<span class="small_txt">20</span></a></li>
+                                    <li><a href="./product.html">베스트<span class="small_txt">19</span></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -209,7 +209,7 @@
             </form>
             <div class="member_info">
                 <a href="./login.html" id="login"><img src="./images/white_icon_login2.png" alt="로그인"></a>
-                <a href="#" id="cart"><img src="./images/white_icon_cart2.png" alt="장바구니"></a>
+                <a href="./product.html" id="cart"><img src="./images/white_icon_cart2.png" alt="장바구니"></a>
                 <span></span>
                 <a href="./map.html" id="location"><img src="./images/white_location2.png" alt="매장찾기"></a>
             </div>

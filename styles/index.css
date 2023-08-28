@@ -1,5 +1,6 @@
 /* 1. header */
 header, html {scroll-behavior: smooth;}
+html {min-width:1920px;}
 header {
     width:100%; 
     margin: 0 auto; left:0; top:0;
@@ -8,7 +9,8 @@ header {
     align-items: center;
     position: fixed;
     z-index: 999; 
-    height:100px; 
+    height:100px;
+    
 }
 
 header nav {
@@ -31,7 +33,7 @@ header nav .gnb .gnb_title {
 header nav .gnb .gnb_title > a {
     font-weight: 600;
     color:#fff;
-    padding-bottom: 20px;
+    padding-bottom: 20px; padding-right:20px;
     
 }
 header nav .gnb .gnb_title > a:hover {text-decoration: underline;}
@@ -394,7 +396,7 @@ footer .fnb_top .fnb_left .tel {
 }
 footer .fnb_top .fnb_left span {
     display: block;margin-top: 15px;
-    line-height: 20px; font-size: rem;
+    line-height: 21px; font-size: 0.9rem;
     
 }
 footer .fnb_top .fnb_right {
@@ -453,7 +455,7 @@ footer .fnb_btm .btm1 span {
 }
 footer .fnb_btm address {}
 footer .fnb_btm address p {line-height: 20px;color: #fff;font-size: 0.8rem;letter-spacing: -0.02em;}
-footer .fnb_btm address p a {color: #fff; }
+footer .fnb_btm address p a {color: #fff; font-size: 0.8rem;letter-spacing: -0.02em;}
 footer .fnb_btm address p a:hover {text-decoration: underline;}
 
 

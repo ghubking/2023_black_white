@@ -1,3 +1,4 @@
+html {background-color: #000;min-width: 1920px;}
 main {
     width:calc(100% - 60px);
     margin: 0 auto; margin-bottom: 100px;
@@ -9,18 +10,19 @@ main .product_wrap {
 main .product_wrap h2 {
     font-size: 1.3rem; font-weight: 600;
     margin: 150px 0 25px 0;
+    color:#fff;
 }
 main .product_wrap .item_kind {}
 main .product_wrap .item_kind ul {
     display: flex;
-
+    
 }
 
 main .product_wrap .item_kind ul .all {
-    margin-right: 30px;
+    margin-right: 30px; 
 }
 main .product_wrap .item_kind ul .all:hover {}
-main .product_wrap .item_kind ul .all a:hover {}
+main .product_wrap .item_kind ul .all a {color: #fff;}
 main .product_wrap .item_kind ul .all a .small_txt {
     padding-left: 5px;
     font-size: 0.7rem;
@@ -30,7 +32,7 @@ main .product_wrap .item_kind ul .all a .small_txt {
 }
 main .product_wrap .item_kind ul li {margin-right: 30px;}
 main .product_wrap .item_kind ul li:last-child {margin-right: 0px;}
-main .product_wrap .item_kind ul li a {}
+main .product_wrap .item_kind ul li a {color: #fff;}
 main .product_wrap .item_kind ul li a:hover {text-decoration: underline;}
 main .product_wrap .item_kind ul li a .small_txt {
     padding-left: 5px;
@@ -40,24 +42,27 @@ main .product_wrap .item_kind ul li a .small_txt {
 }
 main .product_wrap .product {
     margin-top: 50px; 
-    /* background-color: lime; */
+    
 }
 main .product_wrap .product .item {
     display: flex; flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     
     
     /* background-color: aqua; */
 }
 main .product_wrap .product .item li {
-    width: 25%;
+    width:25%;
     display: flex; flex-flow: column nowrap;
     margin-bottom: 50px;
+    padding-right: 20px;
     
 
 }
+main .product_wrap .product .item li:nth-child(4n+0) {}
 main .product_wrap .product .item li .item_detail {
-    margin-right: 20px;
+    
 }
 
 
@@ -387,17 +392,18 @@ main .product_wrap .product .item li .item_detail .item_text {
     
 }
 main .product_wrap .product .item li .item_detail .item_text p {
-    margin-bottom: 10px;
+    margin-bottom: 10px; color: #fff;
 }
 main .product_wrap .product .item li .item_detail .item_text h3 {
     margin-bottom: 5px; font-size: 1.3rem; font-weight: 600;
+    color: #fff;
 }
 main .product_wrap .product .item li .item_detail .item_text .price_like {
     line-height: 16px;
     display: flex; flex-flow: row nowrap; justify-content: space-between;
     margin: 10px 0 10px 0;
     border-bottom: 1px solid#aaa;
-    padding-bottom: 10px;
+    padding-bottom: 10px; color: #fff;
 }
 main .product_wrap .product .item li .item_detail .item_text .price_like .price {
     font-weight: 500;
@@ -414,8 +420,9 @@ main .product_wrap .product .item li .item_detail .item_text .item_btm {
     margin-top: 15px; padding-bottom: 10px;
 }
 main .product_wrap .product .item li .item_detail .item_text .item_btm span {
-    border: 1px solid#aaa;
-    background-color: #D9D9D9;
+    
+    border: 1px solid#fff;
     font-size: 0.7rem;
     margin-right: 5px; padding: 2px 2px;
+    color:#fff;
 }
