@@ -85,29 +85,34 @@ header nav .gnb li .sub .right {
     width: 50%;
 }
 header nav .gnb li .sub .right1 img {
-    width:80%;
+    width:90%;
     background-size: auto;
     background-position: center;
+    margin: 0 auto;
 }
 header nav .gnb li .sub .right2 img {
     width: 70%;
     background-size: auto;
     background-position: center;
+    margin: 0 auto;
 }
 header nav .gnb li .sub .right3 img {
-    width:100%;
+    width:90%;
     background-size: auto;
     background-position: center;
+    margin: 0 auto;
 }
 header nav .gnb li .sub .right4 img {
-    width:100%;
+    width:90%;
     background-size: auto;
     background-position: center;
+    margin: 0 auto;
 }
 header nav .gnb li .sub .right5 img {
-    width:100%;
+    width:90%;
     background-size: auto;
     background-position: center;
+    margin: 0 auto;
 }
 header .logo {
     width:120px; height:60px;
